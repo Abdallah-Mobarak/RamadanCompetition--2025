@@ -554,7 +554,16 @@ pre code {
   margin-right: auto;
   margin-left: auto;
 }
-
+iframe{
+  width: 450px;
+  height: 350px;
+}
+@media (max-width: 992px) {
+  iframe{
+    width: 300px;
+    height: 300px;
+  }
+}
 @media (min-width: 576px) {
   .container {
     max-width: 540px;
@@ -7634,7 +7643,6 @@ button.bg-dark:focus {
 }
 
 .embed-responsive .embed-responsive-item,
-.embed-responsive iframe,
 .embed-responsive embed,
 .embed-responsive object,
 .embed-responsive video {
@@ -11587,7 +11595,7 @@ textarea.form-control {
 }
 
 .section {
-  padding: 80px 0;
+  padding: 40px 0;
 }
 
 .section:nth-child(even) {
